@@ -1,5 +1,5 @@
 
-        const generatedUrls = [];
+  const generatedUrls = [];
 
         function appendUTMandCID() {
             const url = document.getElementById('url').value;
