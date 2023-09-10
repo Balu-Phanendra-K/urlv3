@@ -1,4 +1,4 @@
-<script>
+
         const generatedUrls = [];
 
         function appendUTMandCID() {
@@ -25,4 +25,3 @@
             // Update the output textarea with the generated URLs
             document.getElementById('outputTextarea').value = generatedUrls.join('\n');
         }
-    </script>
