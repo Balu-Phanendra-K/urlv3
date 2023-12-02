@@ -6,7 +6,12 @@
             background-size: cover;
             transition: background-image 1s ease-in-out;
         }
+	 h1 {
+            color: #302946;
+            font-family: 'Poppins';
+			
 
+        }
         form {
             width: 400px;
             margin: 0 auto;
