@@ -18,7 +18,7 @@
 
             // Add the final URL to the generatedUrls array
             generatedUrls.unshift(finalUrl);
-            if (generatedUrls.length > 10) {
+            if (generatedUrls.length > 50) {
                 generatedUrls.pop(); // Remove the oldest URL
             }
 
