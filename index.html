@@ -2,21 +2,24 @@
 <html>
 <head>
     <title>URL, Campaign Name and CID Appender</title>
-     <link rel="stylesheet" href="style.css">
-	<script src="script.js"></script>
-	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-
+    <link rel="stylesheet" href="style.css">
+    
 </head>
+
+
+
 <body>
-   <h1><mark>URL, Campaign Name and CID Appender</mark></h1>
-    <form id="appendForm">
-        <input type="text" id="url" placeholder="Enter URL">
-        <input type="text" id="campaignName" placeholder="Enter Campaign Name">
-        <input type="text" id="cid" placeholder="Enter CID">
-        <input type="button" value="Append & Generate" onclick="appendUTMandCID()">
-    </form>
-    <div id="output">
-        <textarea id="outputTextarea" ></textarea>
+   <div class="container">
+       <h3><mark>URL, Campaign Name and CID Appender</mark></h3>
+        <form id="appendForm">
+            <input type="text" id="url" placeholder="Enter URL">
+            <input type="text" id="campaignName" placeholder="Enter Campaign Name">
+            <input type="text" id="cid" placeholder="Enter CID">
+            <button type="button" onclick="appendUTMandCID()">Append & Generate</button>
+        </form>
+        <div id="output">
+            <textarea id="outputTextarea" placeholder="Generated URL will appear here..." readonly></textarea>
+        </div>
     </div>
 </body>
 </html>
